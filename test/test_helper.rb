@@ -4,6 +4,7 @@ require 'rails/test_help'
 require 'minitest/rails'
 require 'minitest/autorun'
 require 'minitest/reporters'
+require 'minitest/pride'
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
